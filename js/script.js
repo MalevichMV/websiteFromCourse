@@ -17,11 +17,7 @@ window.addEventListener('DOMContentLoaded', function() {
     calc();
     forms('form', modalTimerId);
     slider({
-        container: '.offer__slide',
-        prevArrow: '.offer__slider-prev',
-        nextArrow: '.offer__slider-next',
-        index: '#current',
-        total: '#total'
+        
         
     });
 });
