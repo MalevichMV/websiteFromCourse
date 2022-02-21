@@ -38,7 +38,7 @@ function slider({container, prevArrow, nextArrow, index, total}) {
         }
             slides[currentSlide].classList.add('show', 'fade');
             slides[currentSlide].classList.remove('hide');
-    };
+    }
 
     function showNextSlide() {
         slides[currentSlide].classList.remove('show', 'fade');
@@ -55,7 +55,7 @@ function slider({container, prevArrow, nextArrow, index, total}) {
         }
             slides[currentSlide].classList.add('show', 'fade');
             slides[currentSlide].classList.remove('hide');
-    };
+    }
 
     prev.addEventListener('click', function(event) {
         showPrevSlide();
