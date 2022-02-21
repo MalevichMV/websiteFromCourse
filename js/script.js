@@ -21,7 +21,6 @@ window.addEventListener('DOMContentLoaded', function() {
         prevArrow: '.offer__slider-prev',
         nextArrow: '.offer__slider-next',
         index: '#current',
-        total: '#total'
-
+        total: '#total'   
     });
 }); 

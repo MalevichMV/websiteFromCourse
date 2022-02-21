@@ -665,7 +665,7 @@ window.addEventListener('DOMContentLoaded', function() {
         total: '#total'
 
     });
-});
+}); 
 })();
 
 /******/ })()
